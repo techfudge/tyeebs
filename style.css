@@ -1,0 +1,118 @@
+body {
+    background-image: url('pexel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your needs */
+    text-align: center;
+  }
+  
+#whatsappForm {
+    padding: 3rem;
+    background-color: #f7fafc;
+    border-radius:.5rem;
+    box-shadow:.2rem.2rem.6rem rgba(0,0,0,.2);
+  }
+  #whatsappForm label{
+    display: block;
+    margin-bottom:.5rem;
+    font-weight: bold;
+  }
+   textarea[name='messageTextarea']
+   {
+     width: 90%;
+     height: 10rem;
+     resize: none;
+     outline:none;
+     border:.1rem solid gray;
+     border-radius:.2rem;
+     padding:.5rem;
+   }
+
+   /* .body{
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    
+   } */
+
+   .head{
+    justify-content: center;
+   }
+
+   .btn{
+    font-family: "Roboto" , sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1e90ff;
+    position: relative;
+    top: 350px; /* Adjust as needed */
+    left: 700px; /* Adjust as needed */
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property:box-shadow, transform ;
+    transition-property:box-shadow, transform ;
+   }
+   
+   .btn:hover, .btn:focus , .btn:active{
+    box-shadow: 0 0 20px rgba( 0 0 0 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+   }
+   /* button[type='submit']{
+     cursor: pointer;
+     color:#fff;
+     background-image: linear-gradient(#7289da,#2c3e50 );
+     border:none;
+     border-radius:.2rem;
+     padding:.5rem 1rem ;
+     transition: all.3s ease-in-out;
+   }
+   
+   button[type='submit']:hover{
+     transform: scale(.95);
+   } */
+
+   /* .styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-button:hover {
+    background-color: #45a049;
+  }
+  
+  .styled-button:active {
+    background-color: #3e8e41;
+  }
+   */
